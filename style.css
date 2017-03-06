@@ -1,0 +1,206 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+@font-face {
+ font-family: bebas;
+ src: url("Font/BEBAS.eot")
+}
+@font-face {
+ font-family: bebas;
+ src: url("Font/BEBAS.TTF") 
+}
+@font-face {
+ font-family: pacifico;
+ src: url("Font/Pacifico.eot") 
+}
+@font-face {
+ font-family:pacifico;
+ src: url("Font/Pacifico.ttf") 
+}
+.header{
+	width: 100%;
+	margin-bottom:10px;
+	overflow: hidden;
+	background-color: #ffffff;
+	/*border: 2px solid red;*/
+}
+.header h1{
+	font-family: pacifico;
+	float: left;
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	/*border: 2px solid red;*/
+	overflow: hidden;
+}
+.menu ul{
+	margin:0;
+	list-style: none;
+
+}
+.menu ul li{
+	display: inline-block;
+	float: right;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-right: 10px;
+	margin-top: 12px;
+	padding: 5px;
+}
+.menu ul li span{
+	display: block;
+	color: gray;
+	font-weight: bold;
+	font-size: 10px;
+}
+.slider{
+	width: 100%;
+	margin:0;
+	padding:0;
+	position: relative;
+}
+.slider img{
+	width: 100%;
+}
+.text{
+	background-color: #383434;
+	width: 23%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 4px 10px;
+}
+.text h4{
+	font-weight: bold;
+	font-family: bebas;
+	font-size: 12px;
+	color:#9c8888;
+}
+.text h1{
+	font-family: bebas;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	
+}
+.slider_text{
+	width: 100%
+	margin:0;
+	padding: 0;
+	/*border: 2px solid red;*/
+	background-color:#dedcdc;
+	margin-top: -23px;
+	padding-top: 10px;
+}
+.slider_text h1{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: bebas;
+	color: #5f5c5c;
+}
+.slider_text {
+	text-align: justify;
+}
+.services{
+	/*border: 2px solid red;*/
+	width: 100%;
+}
+.service {
+    box-sizing: border-box;
+    width: 32%;
+    display: inline-block;
+     /*border: 2px solid red; */
+    margin-right: 10px;
+}
+.service_logo img{
+	float: left;
+	padding-right: 35px;
+}
+.service_logo h1{/*
+	border: 2px solid red;*/
+	font-weight: bold;
+	font-size: 18px;
+	color: #5f5c5c;
+}
+
+.service_text p{
+	
+	text-align: justify;
+	font-size: 12px;
+}
+.service_footer{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 33px;
+}
+.line{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.line img{
+	width: 100%
+}
+.about{
+	width: 100%;
+	margin:0;
+	position: relative;
+}
+.about_text h1{
+	position: absolute;
+	font-weight: bold;
+	font-size: 26px;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: white;
+	margin:0;
+	color: #5f5c5c;
+}
+.courses{
+	width: 100%;
+	/*border: 2px solid red;*/
+	margin:0 auto;
+}
+.course{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 24%;
+	/*border: 2px solid red;*/
+	margin-right: 6px;
+}
+.course_text {
+	text-align: justify;
+}
+.img h1{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: bebas;
+}
+.course_footer{
+	font-family: bebas;
+	font-size: 18px;
+	margin-top: 45px;
+	margin-bottom: 40px;
+
+}
+.footer{
+	width: 100%;
+	margin:0;
+	background-color: #e0dddd;
+	padding: 18px;
+	text-align: center;
+
+}
+
+	
